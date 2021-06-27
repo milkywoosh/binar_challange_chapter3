@@ -16,13 +16,11 @@
   background : url("../assets/bg-TOP-SCORE.jpg");    /* image */
   background-size: auto;
   background-position: center;
-  filter: brightness(180%);
   height: 100vh;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: space-evenly;
   width: 100vw;
-  align-items: center;
+  /* align-items: center; --> untuk centering all component over main-background*/ 
   
 }
 
@@ -35,7 +33,6 @@
    height: 100vh;
    background-repeat: no-repeat;
    display: flex;
-   justify-content: space-evenly;
    width: 100vw;
    align-items: center;
 }
@@ -195,12 +192,22 @@ img {
   margin-top: 100px;
   margin-left: 200px
 }
-.left-arrow {
-  left: -10px;
+
+/* Create two equal columns that floats next to each other */
+.column-bg-5 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
 }
 
-.right-arrow {
-
+/* Clear floats after the columns */
+.row-bg-5 {
+  content: "";
+  display: table;
+  clear: both;
+ 
 }
 
 #the-game {
@@ -235,7 +242,7 @@ img {
   padding-right:100px;
 }
 
-/* .navbar-nav > li{
-  margin-left:30px;
-  margin-right:30px;
-} */
+
+.color-card-name {
+  color: #d29539;
+}
