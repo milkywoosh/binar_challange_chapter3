@@ -1,0 +1,241 @@
+
+
+
+
+@font-face {
+  font-family: DelaGothicOne-Regular;
+  src: url(../assets/Dela_Gothic_One/DelaGothicOne-Regular.ttf);
+ 
+}
+
+
+
+.background5 {
+  width: 100%;
+  
+  background : url("../assets/bg-TOP-SCORE.jpg");    /* image */
+  background-size: auto;
+  background-position: center;
+  filter: brightness(180%);
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  align-items: center;
+  
+}
+
+.background4 {
+  width: 100%;
+  background : url("../assets/requirements.png");    /* image */
+  background-size: cover;
+   background-position: center;
+   filter: brightness(180%);
+   height: 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-evenly;
+   width: 100vw;
+   align-items: center;
+}
+
+
+.background3 {
+  width: 100%;
+   background : url("../assets/features.jpg");    /* image */
+   background-size: cover;
+   background-position: center;
+   filter: brightness(180%);
+   height: 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-evenly;
+   width: 100vw;
+   align-items: center;
+  
+}
+
+.background2 {
+  width: 100%;
+  background : url("../assets/the-games-bg.jpg");    /* image */
+  background-size: cover;
+  background-position: center;
+  filter: brightness(140%);
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding-bottom: 10%;
+  align-items: center;
+}
+
+
+.background1 {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+  background : url("../assets/main-bg.jpg");    /* image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100vw;
+  position: relative;
+  align-items: center;
+}
+
+
+
+img {
+  height: 400px;
+  width: 600px;
+
+}
+
+
+
+
+
+.carousel-indicators [data-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px !important;
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+}
+
+
+/*  */
+#triple-game {
+  height: 200px;
+  width: 750px;
+} 
+
+
+
+
+
+/* play traditional game */
+.main-header-text {
+  display: flex;
+  height: 73.12px;
+  left: 18%;
+  top: 20%;
+  position: absolute;
+  text-align:center;
+  font-weight: 500;
+  color: aliceblue;
+  letter-spacing: 3px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+/* Experience new trad game play */
+.second-header-text {
+  display: flex;
+  color: aliceblue;
+  font-size: larger;
+  top: 30%;
+  left: 30%;
+  position: absolute;
+  letter-spacing: 4px;
+}
+
+#button-home {
+   /* display: flex; */
+  font-size: small;
+  font-weight: bolder;
+  position: absolute;
+  top: 40%;
+  left: 40%; 
+  text-align: center;
+  padding: 15px 20px;
+  border-radius: 4px; 
+  /* background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%); */
+  width: 200px;
+  cursor: pointer;
+  margin: 4px 2px;
+}
+
+.story-text {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size:    12px;
+  left: 45%; 
+  bottom: 4%;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: aliceblue;
+}
+
+
+.button-position {
+  position: absolute;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  left: 47%; 
+  bottom: 3%;
+  /* line-height: 22px; */
+  text-transform: uppercase;
+  color: black;
+}
+
+.container__triangle--down {
+  border-color: rgba(0, 0, 0, 0.3) transparent transparent;
+  width: 10px;
+}
+
+.features {
+  margin-top: 100px;
+  margin-left: 200px
+}
+.left-arrow {
+  left: -10px;
+}
+
+.right-arrow {
+
+}
+
+#the-game {
+
+  width: 30%;
+  color: aliceblue;
+  font-size: larger;
+  align-items: flex-end;
+}
+
+
+.transparent {
+  background: rgba(0, 0, 0, 0.482);
+}
+
+
+.navbar-nav > li{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+
+#navbar_left {
+  padding-left: 90px;
+  padding-right: 150px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+#navbar_right {
+  padding-left:150px;
+  padding-right:100px;
+}
+
+/* .navbar-nav > li{
+  margin-left:30px;
+  margin-right:30px;
+} */
