@@ -24,9 +24,9 @@
 }
 
 .background6 {
-  width: 100%;
+
   background : url("../assets/6th-bg.jpg");    
-  background-size: auto;
+  background-size: cover;
    background-position: center;
    height: 100vh;
    background-repeat: no-repeat;
@@ -34,18 +34,24 @@
    justify-content: space-evenly;
    width: 100vw;
    align-items: center;
+   background-size: 110%;
 }
 .background5 {
-  width: 100%;
   background : url("../assets/bg-TOP-SCORE.jpg");    /* image */
-  background-size: auto;
+  /* background-size: cover; */
+  background-color: black;
   background-position: center;
   height: 100vh;
   background-repeat: no-repeat;
   display: flex;
   width: 100vw;
+  align-items: center;
+   background-size: 110%;
+   /* background-size: ;, background-size: 100%;, */
   /* align-items: center; --> untuk centering all component over main-background*/ 
   
+
+
 }
 
 .background4 {
@@ -58,12 +64,11 @@
    background-repeat: no-repeat;
    display: flex;
    width: 100vw;
-   align-items: center;
+   /* align-items: center; */
 }
 
 
 .background3 {
-  width: 100%;
    background : url("../assets/features.jpg");    /* image */
    background-size: cover;
    background-position: center;
@@ -100,10 +105,10 @@
   background : url("../assets/main-bg.jpg");    /* image */
   background-size: cover;
   background-repeat: no-repeat;
-  display: flex;
+  /* display: flex; */
   width: 100vw;
   position: relative;
-  align-items: center;
+  /* align-items: center; */
 }
 
 
@@ -139,14 +144,14 @@ img {
 
 /* play traditional game */
 .main-header-text {
-  display: flex;
-  height: 73.12px;
-  left: 18%;
-  top: 20%;
-  position: absolute;
+  /* display: flex; */
+
+
+  margin-top: 40%;
+  /* position: */
   text-align:center;
   font-weight: 500;
-  color: aliceblue;
+  color: white;
   letter-spacing: 3px;
   font-family: Arial;
   font-style: normal;
@@ -157,37 +162,35 @@ img {
 
 /* Experience new trad game play */
 .second-header-text {
-  display: flex;
-  color: aliceblue;
+  text-align: center;
+  color: white;
   font-size: larger;
-  top: 30%;
-  left: 30%;
-  position: absolute;
+  margin-top: 20px;
+  left: 10%;
+  /* position: absolute; */
   letter-spacing: 4px;
 }
 
 #button-home {
-   /* display: flex; */
   font-size: small;
   font-weight: bolder;
-  position: absolute;
-  top: 40%;
-  left: 40%; 
-  text-align: center;
+
+  margin-top: 10%;
+  margin-left: 35%;
+  /* text-align: center; */
   padding: 15px 20px;
   border-radius: 4px; 
-  /* background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%); */
   width: 200px;
   cursor: pointer;
-  margin: 4px 2px;
 }
 
 .story-text {
   position: absolute;
   text-align: center;
+  align-items: center;
   font-weight: bold;
   font-size:    12px;
-  left: 45%; 
+  left: 46%; 
   bottom: 4%;
   line-height: 22px;
   text-transform: uppercase;
@@ -291,4 +294,33 @@ img {
   width: 200px;
   cursor: pointer;
 
+}
+.form-subscribe {
+  font-size: small;
+  font-weight: bolder;
+  padding: 15px 20px;
+  border-radius: 4px; 
+  /* background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%); */
+  width: 200px;
+  color: rgb(55, 55, 57);
+}
+
+.top-score-tes {
+    position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px; 
+    letter-spacing: 3px;
+}
+
+.various-score-tes {
+
+    position: fixed;
+    padding: 2em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
 }
