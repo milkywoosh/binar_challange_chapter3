@@ -8,11 +8,35 @@
  
 }
 
+.bg-footer {
+  background-size: auto;
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100vw;  /* if width 100% it will only show the real dimension of the background picture */
+                 /* if width 100vw it will fully stretch the background picture and cover all page */
+   left: 0;
+  bottom: 0;
+ 
+   color: white;
 
+}
 
+.background6 {
+  width: 100%;
+  background : url("../assets/6th-bg.jpg");    
+  background-size: auto;
+   background-position: center;
+   height: 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-evenly;
+   width: 100vw;
+   align-items: center;
+}
 .background5 {
   width: 100%;
-  
   background : url("../assets/bg-TOP-SCORE.jpg");    /* image */
   background-size: auto;
   background-position: center;
@@ -245,4 +269,26 @@ img {
 
 .color-card-name {
   color: #d29539;
+}
+
+.pointer-finger {
+  cursor: pointer;
+}
+
+#img-6 {
+  width: 300px;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+.button-subscribe {
+  font-size: small;
+  font-weight: bolder;
+  padding: 15px 20px;
+  border-radius: 4px; 
+  /* background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%); */
+  width: 200px;
+  cursor: pointer;
+
 }
